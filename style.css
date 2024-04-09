@@ -239,6 +239,31 @@ p {
   z-index: 16;
 }
 
+@media (max-width: 768px) {
+  body {
+    justify-content: flex-end;
+  }
+
+  .birthdayCard {
+    position: absolute !important;
+    bottom: 50px;
+    right: 20px;
+  }
+
+  .wave img {
+    width: 160px;
+    height: 200px;
+  }
+
+  .pic1 {
+    left: 0;
+  }
+
+  .pic2 {
+    right: 0;
+  }
+}
+
 @keyframes wave {
   0% {
     transform: rotate(2deg);
